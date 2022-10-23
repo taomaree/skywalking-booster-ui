@@ -21,6 +21,7 @@ const Components = require("unplugin-vue-components/webpack");
 const { ElementPlusResolver } = require("unplugin-vue-components/resolvers");
 
 module.exports = {
+  publicPath: "./",
   outputDir: "dist",
   productionSourceMap: false,
   devServer: {
